@@ -1,0 +1,348 @@
+CRITICAL - 2021-11-15 06:41:02 --> Invalid file: Template/Admin/karyawan.php
+#0 C:\xampp\htdocs\pos\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Template/Admin/...')
+#1 C:\xampp\htdocs\pos\system\Common.php(1097): CodeIgniter\View\View->render('Template/Admin/...', Array, true)
+#2 C:\xampp\htdocs\pos\app\Controllers\Admin.php(39): view('Template/Admin/...', Array)
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(824): App\Controllers\Admin->karyawan()
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\pos\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-15 06:41:22 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\pos\app\Views\Admin\karyawan.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\pos\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1097): CodeIgniter\View\View->render('Admin/karyawan', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Admin.php(39): view('Admin/karyawan', Array)
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(824): App\Controllers\Admin->karyawan()
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\pos\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-11-15 06:41:45 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\pos\app\Views\Admin\karyawan.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\pos\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1097): CodeIgniter\View\View->render('Admin/karyawan', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Admin.php(39): view('Admin/karyawan', Array)
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(824): App\Controllers\Admin->karyawan()
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\pos\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-11-15 06:41:56 --> Call to undefined function form_error()
+#0 C:\xampp\htdocs\pos\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\pos\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pos\system\Common.php(1097): CodeIgniter\View\View->render('Admin/karyawan', Array, true)
+#3 C:\xampp\htdocs\pos\app\Controllers\Admin.php(39): view('Admin/karyawan', Array)
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(824): App\Controllers\Admin->karyawan()
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\pos\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-11-15 06:41:56 --> Call to undefined function form_error()
+#0 C:\xampp\htdocs\pos\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\pos\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pos\system\Common.php(1097): CodeIgniter\View\View->render('Admin/karyawan', Array, true)
+#3 C:\xampp\htdocs\pos\app\Controllers\Admin.php(39): view('Admin/karyawan', Array)
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(824): App\Controllers\Admin->karyawan()
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\pos\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-11-15 06:41:57 --> Call to undefined function form_error()
+#0 C:\xampp\htdocs\pos\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\pos\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pos\system\Common.php(1097): CodeIgniter\View\View->render('Admin/karyawan', Array, true)
+#3 C:\xampp\htdocs\pos\app\Controllers\Admin.php(39): view('Admin/karyawan', Array)
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(824): App\Controllers\Admin->karyawan()
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\pos\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-11-15 06:41:58 --> Call to undefined function form_error()
+#0 C:\xampp\htdocs\pos\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\pos\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pos\system\Common.php(1097): CodeIgniter\View\View->render('Admin/karyawan', Array, true)
+#3 C:\xampp\htdocs\pos\app\Controllers\Admin.php(39): view('Admin/karyawan', Array)
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(824): App\Controllers\Admin->karyawan()
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\pos\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-11-15 06:41:58 --> Call to undefined function form_error()
+#0 C:\xampp\htdocs\pos\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\pos\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pos\system\Common.php(1097): CodeIgniter\View\View->render('Admin/karyawan', Array, true)
+#3 C:\xampp\htdocs\pos\app\Controllers\Admin.php(39): view('Admin/karyawan', Array)
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(824): App\Controllers\Admin->karyawan()
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\pos\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-11-15 06:41:58 --> Call to undefined function form_error()
+#0 C:\xampp\htdocs\pos\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\pos\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pos\system\Common.php(1097): CodeIgniter\View\View->render('Admin/karyawan', Array, true)
+#3 C:\xampp\htdocs\pos\app\Controllers\Admin.php(39): view('Admin/karyawan', Array)
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(824): App\Controllers\Admin->karyawan()
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\pos\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-11-15 06:51:31 --> Call to undefined method App\Models\Karyawan_Model::getRowArray
+#0 C:\xampp\htdocs\pos\app\Models\Karyawan_Model.php(14): CodeIgniter\Model->__call('getRowArray', Array)
+#1 C:\xampp\htdocs\pos\app\Controllers\Api.php(70): App\Models\Karyawan_Model->getAllKaryawan()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(824): App\Controllers\Api->karyawan()
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\pos\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-11-15 06:51:53 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::getRowArray()
+#0 C:\xampp\htdocs\pos\app\Controllers\Api.php(70): App\Models\Karyawan_Model->getAllKaryawan()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(824): App\Controllers\Api->karyawan()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pos\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-15 06:51:59 --> Call to undefined method App\Models\Karyawan_Model::getRowArray
+#0 C:\xampp\htdocs\pos\app\Models\Karyawan_Model.php(14): CodeIgniter\Model->__call('getRowArray', Array)
+#1 C:\xampp\htdocs\pos\app\Controllers\Api.php(70): App\Models\Karyawan_Model->getAllKaryawan()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(824): App\Controllers\Api->karyawan()
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\pos\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2021-11-15 07:16:20 --> Unknown column 'username' in 'field list'
+CRITICAL - 2021-11-15 08:15:12 --> Undefined property: App\Controllers\Admin::$load
+#0 C:\xampp\htdocs\pos\app\Controllers\Admin.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(824): App\Controllers\Admin->karyawan()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pos\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-15 08:19:11 --> Encrypter needs a starter key.
+#0 C:\xampp\htdocs\pos\system\Encryption\Encryption.php(124): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+#1 C:\xampp\htdocs\pos\system\Config\Services.php(215): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+#2 C:\xampp\htdocs\pos\system\Config\BaseService.php(248): CodeIgniter\Config\Services::encrypter()
+#3 C:\xampp\htdocs\pos\app\Controllers\Admin.php(42): CodeIgniter\Config\BaseService::__callStatic('encrypter', Array)
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(824): App\Controllers\Admin->karyawan()
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\pos\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-11-15 08:19:43 --> Encrypter needs a starter key.
+#0 C:\xampp\htdocs\pos\system\Encryption\Encryption.php(124): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+#1 C:\xampp\htdocs\pos\system\Config\Services.php(215): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+#2 C:\xampp\htdocs\pos\system\Config\BaseService.php(248): CodeIgniter\Config\Services::encrypter()
+#3 C:\xampp\htdocs\pos\app\Controllers\Admin.php(42): CodeIgniter\Config\BaseService::__callStatic('encrypter', Array)
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(824): App\Controllers\Admin->karyawan()
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\pos\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-11-15 20:20:08 --> Argument 1 passed to CodeIgniter\Encryption\Encryption::initialize() must be an instance of Config\Encryption or null, array given, called in C:\xampp\htdocs\pos\app\Controllers\Admin.php on line 47
+#0 C:\xampp\htdocs\pos\app\Controllers\Admin.php(47): CodeIgniter\Encryption\Encryption->initialize(Array)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(824): App\Controllers\Admin->karyawan()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pos\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-15 20:23:21 --> Decrypting: authentication failed.
+#0 C:\xampp\htdocs\pos\system\Encryption\Handlers\OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 C:\xampp\htdocs\pos\app\Controllers\Admin.php(53): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('PHD0Jb+UQmxDNmd...')
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(824): App\Controllers\Admin->karyawan()
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\pos\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-11-15 20:31:52 --> Decrypting: authentication failed.
+#0 C:\xampp\htdocs\pos\system\Encryption\Handlers\OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 C:\xampp\htdocs\pos\app\Helpers\access_helper.php(19): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('')
+#2 C:\xampp\htdocs\pos\app\Views\Admin\karyawan.php(281): dekripsi_password('item.password')
+#3 C:\xampp\htdocs\pos\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\pos\system\Common.php(1097): CodeIgniter\View\View->render('Admin/karyawan', Array, true)
+#6 C:\xampp\htdocs\pos\app\Controllers\Admin.php(39): view('Admin/karyawan', Array)
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(824): App\Controllers\Admin->karyawan()
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\pos\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2021-11-15 21:13:57 --> syntax error, unexpected '...' (T_ELLIPSIS), expecting ']'
+#0 C:\xampp\htdocs\pos\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('api/karyawan')
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('api/karyawan')
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pos\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-15 21:13:58 --> syntax error, unexpected '...' (T_ELLIPSIS), expecting ']'
+#0 C:\xampp\htdocs\pos\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('api/karyawan')
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('api/karyawan')
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pos\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-15 21:13:58 --> syntax error, unexpected '...' (T_ELLIPSIS), expecting ']'
+#0 C:\xampp\htdocs\pos\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('api/karyawan')
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('api/karyawan')
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pos\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-15 21:14:00 --> syntax error, unexpected '...' (T_ELLIPSIS), expecting ']'
+#0 C:\xampp\htdocs\pos\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('api/karyawan')
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('api/karyawan')
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pos\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-15 21:14:03 --> syntax error, unexpected '...' (T_ELLIPSIS), expecting ']'
+#0 C:\xampp\htdocs\pos\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('api/karyawan')
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('api/karyawan')
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pos\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-15 21:14:04 --> syntax error, unexpected '...' (T_ELLIPSIS), expecting ']'
+#0 C:\xampp\htdocs\pos\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('api/karyawan')
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('api/karyawan')
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pos\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-15 21:14:06 --> syntax error, unexpected '...' (T_ELLIPSIS), expecting ']'
+#0 C:\xampp\htdocs\pos\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('api/karyawan')
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('api/karyawan')
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pos\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-15 21:14:07 --> syntax error, unexpected '...' (T_ELLIPSIS), expecting ']'
+#0 C:\xampp\htdocs\pos\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('api/karyawan')
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('api/karyawan')
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pos\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-15 22:22:43 --> syntax error, unexpected '...' (T_ELLIPSIS), expecting ']'
+#0 C:\xampp\htdocs\pos\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('api/karyawan')
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('api/karyawan')
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pos\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-15 22:22:45 --> syntax error, unexpected '...' (T_ELLIPSIS), expecting ']'
+#0 C:\xampp\htdocs\pos\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('api/karyawan')
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('api/karyawan')
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pos\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-15 22:22:45 --> syntax error, unexpected '...' (T_ELLIPSIS), expecting ']'
+#0 C:\xampp\htdocs\pos\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('api/karyawan')
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('api/karyawan')
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pos\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-15 22:22:46 --> syntax error, unexpected '...' (T_ELLIPSIS), expecting ']'
+#0 C:\xampp\htdocs\pos\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('api/karyawan')
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('api/karyawan')
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pos\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-15 22:22:46 --> syntax error, unexpected '...' (T_ELLIPSIS), expecting ']'
+#0 C:\xampp\htdocs\pos\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('api/karyawan')
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('api/karyawan')
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pos\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-15 22:22:47 --> syntax error, unexpected '...' (T_ELLIPSIS), expecting ']'
+#0 C:\xampp\htdocs\pos\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('api/karyawan')
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('api/karyawan')
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pos\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-15 22:22:47 --> syntax error, unexpected '...' (T_ELLIPSIS), expecting ']'
+#0 C:\xampp\htdocs\pos\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('api/karyawan')
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('api/karyawan')
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pos\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-15 22:22:49 --> syntax error, unexpected '...' (T_ELLIPSIS), expecting ']'
+#0 C:\xampp\htdocs\pos\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('api/karyawan')
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('api/karyawan')
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pos\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-15 22:22:53 --> syntax error, unexpected '...' (T_ELLIPSIS), expecting ']'
+#0 C:\xampp\htdocs\pos\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('api/karyawan')
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('api/karyawan')
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pos\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-15 22:22:53 --> syntax error, unexpected '...' (T_ELLIPSIS), expecting ']'
+#0 C:\xampp\htdocs\pos\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('api/karyawan')
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('api/karyawan')
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pos\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-15 22:22:54 --> syntax error, unexpected '...' (T_ELLIPSIS), expecting ']'
+#0 C:\xampp\htdocs\pos\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('api/karyawan')
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('api/karyawan')
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pos\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-15 22:23:00 --> syntax error, unexpected '...' (T_ELLIPSIS), expecting ']'
+#0 C:\xampp\htdocs\pos\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('api/karyawan')
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('api/karyawan')
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pos\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

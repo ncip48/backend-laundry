@@ -1,0 +1,52 @@
+CRITICAL - 2021-11-17 01:33:28 --> Decrypting: authentication failed.
+#0 C:\xampp\htdocs\pos\system\Encryption\Handlers\OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 C:\xampp\htdocs\pos\app\Controllers\Api.php(49): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('')
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(824): App\Controllers\Api->login()
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\pos\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-11-17 01:34:03 --> Decrypting: authentication failed.
+#0 C:\xampp\htdocs\pos\system\Encryption\Handlers\OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 C:\xampp\htdocs\pos\app\Controllers\Api.php(49): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('')
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(824): App\Controllers\Api->login()
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\pos\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-11-17 01:34:38 --> Undefined index: type
+#0 C:\xampp\htdocs\pos\app\Controllers\Api.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 63, Array)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(824): App\Controllers\Api->login()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pos\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-17 01:43:26 --> syntax error, unexpected '}'
+#0 C:\xampp\htdocs\pos\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\pos\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\pos\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2021-11-17 01:46:33 --> Column 'photo' cannot be null
+CRITICAL - 2021-11-17 01:53:25 --> Call to undefined function App\Models\enkripsi_password()
+#0 C:\xampp\htdocs\pos\app\Controllers\Api.php(122): App\Models\Karyawan_Model->addKaryawan(Array)
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(824): App\Controllers\Api->tambah_karyawan()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pos\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-17 02:01:39 --> Class 'App\Filters\Auth' not found
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('admin/karyawan', 'before')
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\pos\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
