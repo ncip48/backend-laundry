@@ -4,7 +4,7 @@ namespace App\Database\Migrations;
 
 use CodeIgniter\Database\Migration;
 
-class Produk extends Migration
+class Kategori extends Migration
 {
     public function up()
     {
@@ -15,33 +15,29 @@ class Produk extends Migration
                 'unsigned'       => true,
                 'auto_increment' => true
             ],
-            'id_kategori' => [
-                'type' => 'INT',
-                'constraint' => '15'
-            ],
             'kode'       => [
                 'type'           => 'VARCHAR',
                 'constraint'     => '255'
             ],
-            'nama_produk'      => [
+            'nama_kategori'      => [
                 'type'           => 'VARCHAR',
                 'constraint'     => '255',
             ],
-            'satuan'      => [
+            'gambar'      => [
                 'type'           => 'VARCHAR',
                 'constraint'     => '255',
             ],
-            'harga'      => [
-                'type'           => 'VARCHAR',
-                'constraint'     => '255',
+            'aktif'      => [
+                'type'           => 'INT',
+                'constraint'     => '1',
             ],
         ]);
         $this->forge->addKey('id', TRUE);
-        $this->forge->createTable('produk', TRUE);
+        $this->forge->createTable('kategori', TRUE);
     }
 
     public function down()
     {
-        $this->forge->dropTable('produk');
+        $this->forge->dropTable('kategori');
     }
 }

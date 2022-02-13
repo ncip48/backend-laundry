@@ -20,6 +20,7 @@ class Filters extends BaseConfig
         'toolbar'  => DebugToolbar::class,
         'honeypot' => Honeypot::class,
         'auth_admin'     => \App\Filters\Auth_Admin::class,
+        'cors'     => \App\Filters\Cors::class,
     ];
 
     /**
@@ -30,6 +31,7 @@ class Filters extends BaseConfig
      */
     public $globals = [
         'before' => [
+            'cors'
             // 'honeypot',
             // 'csrf',
             // 'auth' => [

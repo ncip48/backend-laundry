@@ -12,8 +12,14 @@ class Produk_Model extends Model
     public function getProduk($id = false)
     {
         if ($id === false) {
+            $this->join('kategori', 'produk.id_kategori = kategori.id', 'LEFT');
+            $this->select('produk.id as id, produk.kode as kode, produk.nama_produk as nama_produk, produk.satuan as satuan, produk.harga as harga');
+            $this->select('kategori.nama_kategori as nama_kategori');
             return $this->findAll();
         } else {
+            $this->join('kategori', 'produk.id_kategori = kategori.id', 'LEFT');
+            $this->select('produk.id as id, produk.kode as kode, produk.nama_produk as nama_produk, produk.satuan as satuan, produk.harga as harga');
+            $this->select('kategori.nama_kategori as nama_kategori');
             return $this->getWhere(['id' => $id])->getRowArray();
         }
     }

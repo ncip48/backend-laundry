@@ -30,6 +30,7 @@
                                 <tr>
                                     <th scope="col">No</th>
                                     <th scope="col">Kode</th>
+                                    <th scope="col">Kategori</th>
                                     <th scope="col">Nama Produk</th>
                                     <th scope="col">Satuan</th>
                                     <th scope="col">Harga</th>
@@ -130,6 +131,7 @@
                         var result = [];
                         result.push(index + 1);
                         result.push(item.kode);
+                        result.push(item.nama_kategori);
                         result.push(item.nama_produk);
                         result.push(item.satuan);
                         result.push(formatRupiah(item.harga));
